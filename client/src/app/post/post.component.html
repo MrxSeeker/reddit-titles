@@ -1,0 +1,10 @@
+<h2 class="display-5">Objave</h2>
+<br />
+<!-- z ngfor ponovimo značko, glede na to, koliko elementov, se nahaja v polji -->
+<div
+  *ngFor="let post of posts"
+  class="card bg-white text-primary mb-7"
+  [routerLink]="['/', post._id]"
+>
+  <a href="{{post.postLink }}">{{ post.titleName }}</a>
+</div>
