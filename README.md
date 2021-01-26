@@ -1,7 +1,7 @@
 # Web Application - Reddit-Titles
 
-Web app made with MEAN Stack, used architecture pattern MVC 
-navodila za zagon spletne aplikacije:
+Web app made with MEAN Stack, used architecture pattern MVC  
+Navodila za zagon spletne aplikacije:  
 
 Server
 1. cd server
